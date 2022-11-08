@@ -42,7 +42,7 @@ public class DB {
 	}
 	
 	private static Properties loadProperties() {
-		try(FileInputStream fs = new FileInputStream("C:\\Java\\Eclipse\\eclipse\\Workspace Eclipse\\jdbc1\\src\\db.properties")){
+		try(FileInputStream fs = new FileInputStream("C:\\temp\\ws-eclipse\\workshop-javafx-jdbc\\db.properties")){
 			Properties props = new Properties();
 			props.load(fs);		
 			return props;
